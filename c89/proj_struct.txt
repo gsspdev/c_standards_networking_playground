@@ -1,0 +1,24 @@
+network-example/
+├── .gitignore
+├── Makefile
+├── README
+├── bin/
+│   └── .keep
+├── doc/
+│   └── README
+├── include/
+│   ├── netcommon.h
+│   ├── netserver.h
+│   └── netclient.h
+├── lib/
+│   └── .keep
+├── src/
+│   ├── server/
+│   │   ├── main.c
+│   │   └── server.c
+│   └── client/
+│   │   ├── main.c
+│   │   └── client.c
+└── test/
+    └── test.c
+
